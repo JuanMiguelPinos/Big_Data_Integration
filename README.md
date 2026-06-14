@@ -1,4 +1,3 @@
-````markdown
 # LLM-Assisted Big Data Integration
 
 Implementation and evaluation of a hybrid Big Data Integration system developed for the **Advanced Topics in Computer Science** course at Roma Tre University.
@@ -49,32 +48,29 @@ Big_Data_Integration/
     │   ├── record_linkage_prompt.txt
     │   └── data_fusion_prompt.txt
     │
-    ├── results/
-    │   ├── blocking_stats_baseline.csv
-    │   ├── blocking_stats_llm.csv
-    │   ├── candidate_pairs_baseline.csv
-    │   ├── candidate_pairs_llm.csv
-    │   ├── clusters_baseline.csv
-    │   ├── clusters_llm.csv
-    │   ├── error_examples_fusion_baseline.csv
-    │   ├── error_examples_fusion_llm.csv
-    │   ├── error_examples_linkage_baseline.csv
-    │   ├── error_examples_linkage_llm.csv
-    │   ├── fusion_eval_baseline.csv
-    │   ├── fusion_eval_llm.csv
-    │   ├── integrated_dataset_baseline.csv
-    │   ├── integrated_dataset_llm.csv
-    │   ├── integrated_dataset_llm_initial.csv
-    │   ├── llm_logs.jsonl
-    │   ├── metrics_summary.csv
-    │   ├── record_linkage_baseline.csv
-    │   ├── record_linkage_llm.csv
-    │   ├── schema_alignment_baseline.csv
-    │   ├── schema_alignment_llm.csv
-    │   └── technical_report_base.md
-    │
-    └── submission_manifest.txt
-````
+    └── results/
+        ├── blocking_stats_baseline.csv
+        ├── blocking_stats_llm.csv
+        ├── candidate_pairs_baseline.csv
+        ├── candidate_pairs_llm.csv
+        ├── clusters_baseline.csv
+        ├── clusters_llm.csv
+        ├── error_examples_fusion_baseline.csv
+        ├── error_examples_fusion_llm.csv
+        ├── error_examples_linkage_baseline.csv
+        ├── error_examples_linkage_llm.csv
+        ├── fusion_eval_baseline.csv
+        ├── fusion_eval_llm.csv
+        ├── integrated_dataset_baseline.csv
+        ├── integrated_dataset_llm.csv
+        ├── integrated_dataset_llm_initial.csv
+        ├── llm_logs.jsonl
+        ├── metrics_summary.csv
+        ├── record_linkage_baseline.csv
+        ├── record_linkage_llm.csv
+        ├── schema_alignment_baseline.csv
+        └── schema_alignment_llm.csv
+```
 
 The `llm_bdi_project` directory contains the data, prompts, logs, metrics, error examples, and final integrated datasets generated during the final experiment.
 
@@ -1099,6 +1095,3 @@ Academic year 2025–2026
 This repository was created for academic purposes.
 
 The WDC Products dataset and the Qwen model remain subject to their respective licences and terms of use.
-
-```
-```
