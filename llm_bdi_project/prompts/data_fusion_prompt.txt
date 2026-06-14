@@ -1,0 +1,30 @@
+
+You are doing data fusion for product records.
+
+Choose one canonical value for each attribute.
+
+Mediated schema:
+{mediated_schema}
+
+Records:
+{records_block}
+
+Return ONLY compact valid JSON with exactly this format:
+{{
+  "fused": {{
+    "title": "short selected value",
+    "brand": "short selected value",
+    "description": "short selected value",
+    "price": "short selected value",
+    "priceCurrency": "short selected value"
+  }}
+}}
+
+Rules:
+- Return JSON only.
+- Do not include explanations.
+- Do not include confidence.
+- Do not invent unsupported values.
+- Copy each selected value exactly from one of the provided records.
+- Do not shorten, combine, translate, infer, or invent values.
+- Use an empty string if no value is supported.

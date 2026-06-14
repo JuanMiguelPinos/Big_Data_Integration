@@ -1,0 +1,33 @@
+
+You are doing schema alignment for Big Data Integration.
+
+Mediated schema:
+{mediated_schema}
+
+Source name:
+{source_name}
+
+Source attributes with sample values:
+{attributes_block}
+
+Task:
+Map each source attribute to exactly one mediated attribute when you are confident.
+If there is no good mapping, use "ABSTAIN".
+
+Return ONLY valid JSON with this format:
+{{
+  "mappings": [
+    {{
+      "source_attribute": "original attribute name",
+      "mediated_attribute": "one of the mediated schema attributes or ABSTAIN",
+      "confidence": 0.0,
+      "reason": "short reason"
+    }}
+  ]
+}}
+
+Rules:
+- Do not invent mediated attributes.
+- Use only attributes from the mediated schema.
+- Use ABSTAIN when unsure.
+- Return JSON only.

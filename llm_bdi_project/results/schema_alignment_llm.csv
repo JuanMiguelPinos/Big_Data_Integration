@@ -1,0 +1,16 @@
+source_attribute_id,source,attribute,predicted_target,confidence,reason
+source_alpha//cost,source_alpha,cost,price,0.8,"Cost is a form of price, and it directly corresponds to the price attribute."
+source_alpha//currency,source_alpha,currency,priceCurrency,0.9,Currency is directly related to the price and should be mapped to priceCurrency.
+source_alpha//details,source_alpha,details,description,0.7,Details often include additional information about the product which can be considered part of the description.
+source_alpha//manufacturer,source_alpha,manufacturer,brand,0.8,Manufacturer is usually the brand of the product.
+source_alpha//product_name,source_alpha,product_name,title,0.9,The product name typically includes a description of the product.
+source_beta//amount,source_beta,amount,price,0.8,"The source attribute 'amount' represents the price of the product, which aligns with the mediated schema attribute 'price'."
+source_beta//brand_name,source_beta,brand_name,brand,0.8,"The source attribute 'brand_name' indicates the brand of the product, which aligns with the mediated schema attribute 'brand'."
+source_beta//currency_code,source_beta,currency_code,priceCurrency,0.8,"The source attribute 'currency_code' indicates the currency of the price, matching the mediated schema attribute 'priceCurrency'."
+source_beta//description_text,source_beta,description_text,description,0.7,"The source attribute 'description_text' provides a detailed description of the product, which can be mapped to the mediated schema attribute 'description'."
+source_beta//name,source_beta,name,title,0.8,The source attribute 'name' closely matches the mediated schema attribute 'title'.
+source_gamma//item_title,source_gamma,item_title,title,0.9,Matches the description of the product title
+source_gamma//listed_price,source_gamma,listed_price,price,0.85,Represents the price of the product
+source_gamma//maker,source_gamma,maker,brand,0.8,Identifies the brand of the product
+source_gamma//money,source_gamma,money,priceCurrency,0.8,Indicates the currency of the price
+source_gamma//specifications,source_gamma,specifications,description,0.7,Contains detailed descriptions about the product

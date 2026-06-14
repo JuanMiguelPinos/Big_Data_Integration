@@ -1,0 +1,24 @@
+
+You are doing entity resolution for product specifications.
+
+Decide if Record A and Record B refer to the same real-world product.
+
+Record A:
+{record_a}
+
+Record B:
+{record_b}
+
+Return ONLY valid JSON:
+{{
+  "match": true,
+  "confidence": 0.0,
+  "reason": "short explanation"
+}}
+
+Rules:
+- match must be true or false.
+- Focus on title, brand, model, screen size, resolution, and other technical details.
+- Different models usually mean non-match.
+- Do not hallucinate missing information.
+- Return JSON only.

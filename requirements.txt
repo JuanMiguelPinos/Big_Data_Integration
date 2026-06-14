@@ -1,0 +1,13 @@
+pandas
+numpy
+tqdm
+rapidfuzz
+scikit-learn
+networkx
+datasets
+transformers==4.44.2
+accelerate==0.33.0
+bitsandbytes==0.45.5
+torch
+regex
+tabulate

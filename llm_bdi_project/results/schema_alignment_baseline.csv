@@ -1,0 +1,16 @@
+source_attribute_id,source,attribute,predicted_target,confidence
+source_alpha//cost,source_alpha,cost,ABSTAIN,0.2667
+source_alpha//currency,source_alpha,currency,priceCurrency,0.7619
+source_alpha//details,source_alpha,details,ABSTAIN,0.5
+source_alpha//manufacturer,source_alpha,manufacturer,ABSTAIN,0.3553
+source_alpha//product_name,source_alpha,product_name,ABSTAIN,0.3529
+source_beta//amount,source_beta,amount,ABSTAIN,0.3636
+source_beta//brand_name,source_beta,brand_name,brand,1.0
+source_beta//currency_code,source_beta,currency_code,priceCurrency,0.7692
+source_beta//description_text,source_beta,description_text,description,1.0
+source_beta//name,source_beta,name,ABSTAIN,0.2222
+source_gamma//item_title,source_gamma,item_title,title,1.0
+source_gamma//listed_price,source_gamma,listed_price,price,1.0
+source_gamma//maker,source_gamma,maker,ABSTAIN,0.25
+source_gamma//money,source_gamma,money,ABSTAIN,0.25
+source_gamma//specifications,source_gamma,specifications,ABSTAIN,0.56

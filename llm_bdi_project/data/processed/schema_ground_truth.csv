@@ -1,0 +1,16 @@
+source,attribute,source_attribute_id,target_attribute_name
+source_alpha,product_name,source_alpha//product_name,title
+source_alpha,manufacturer,source_alpha//manufacturer,brand
+source_alpha,details,source_alpha//details,description
+source_alpha,cost,source_alpha//cost,price
+source_alpha,currency,source_alpha//currency,priceCurrency
+source_beta,name,source_beta//name,title
+source_beta,brand_name,source_beta//brand_name,brand
+source_beta,description_text,source_beta//description_text,description
+source_beta,amount,source_beta//amount,price
+source_beta,currency_code,source_beta//currency_code,priceCurrency
+source_gamma,item_title,source_gamma//item_title,title
+source_gamma,maker,source_gamma//maker,brand
+source_gamma,specifications,source_gamma//specifications,description
+source_gamma,listed_price,source_gamma//listed_price,price
+source_gamma,money,source_gamma//money,priceCurrency
