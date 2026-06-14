@@ -1,4 +1,3 @@
-````markdown
 # LLM-Assisted Big Data Integration
 
 Implementation and evaluation of a hybrid Big Data Integration system developed for the **Advanced Topics in Computer Science** course at Roma Tre University.
@@ -74,7 +73,7 @@ Big_Data_Integration/
     │   └── technical_report_base.md
     │
     └── submission_manifest.txt
-````
+```test
 
 The `llm_bdi_project` directory contains the data, prompts, logs, metrics, error examples, and final integrated datasets generated during the final experiment.
 
@@ -1099,6 +1098,3 @@ Academic year 2025–2026
 This repository was created for academic purposes.
 
 The WDC Products dataset and the Qwen model remain subject to their respective licences and terms of use.
-
-```
-```
