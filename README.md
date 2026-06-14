@@ -73,7 +73,7 @@ Big_Data_Integration/
     │   └── technical_report_base.md
     │
     └── submission_manifest.txt
-```text
+```
 
 The `llm_bdi_project` directory contains the data, prompts, logs, metrics, error examples, and final integrated datasets generated during the final experiment.
 
